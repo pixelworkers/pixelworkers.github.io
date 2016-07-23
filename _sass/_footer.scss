@@ -6,7 +6,9 @@
 // Colors
 
 // WHITES, GREYS, AND BLACKS
-
+#footer1, #footer2 {
+  background-color: black;
+}
 $white: #fff;
 $white-darkest: #dde3e6;
 
@@ -105,14 +107,7 @@ footer {
   background-color: black;
 }
 body {
-    padding: 20px;
     overflow-x: hidden;
-
-    background: $black-light;
-
-    font-family: $raleway;
-    color: $black-lightest;
-
     text-align: center;
 }
 
