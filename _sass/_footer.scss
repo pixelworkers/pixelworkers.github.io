@@ -6,8 +6,19 @@
 // Colors
 
 // WHITES, GREYS, AND BLACKS
+
 #footer1, #footer2 {
   background-color: black;
+}
+#footer1 {
+  padding-top: 15px;
+}
+.icon-Pixel-W.bottom {
+  font-size: 50px;
+}
+.icon-Workers-B.bottom {
+  font-size: 29.1px;
+  fill: #fff;
 }
 $white: #fff;
 $white-darkest: #dde3e6;

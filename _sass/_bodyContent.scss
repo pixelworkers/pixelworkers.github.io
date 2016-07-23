@@ -1,4 +1,27 @@
 #events {
+  .info {
+    position: absolute;
+    left: 40%;
+    margin-top:10%;
+    h1 {
+      margin-top: 0px;
+      font-size: 3em;
+      font-weight: 700;
+    }
+    p {
+      text-align: left;
+    }
+    svg {
+      font-size: 162px;
+      position: absolute;
+      left: -162px;
+    }
+    >div {
+      padding: 25px 10px 10px 5px;
+      color: #fff;
+      background-color: black;
+    }
+  }
 }
 #why {
   color: #fff;
