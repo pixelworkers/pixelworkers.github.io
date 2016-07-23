@@ -1,6 +1,6 @@
 #events {
   background: url(/assets/i/pixel-bg.svg);
-  height: 350px;
+  min-height: 350px;
 }
 #why {
   color: #fff;
@@ -13,4 +13,8 @@
     max-width: 250px;
     margin: 0 auto;
   }
+}
+#connect {
+  min-height: 350px;
+  background: url(/assets/i/pinkpixel-bg.png);
 }
