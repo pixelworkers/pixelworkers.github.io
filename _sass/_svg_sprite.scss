@@ -2,7 +2,7 @@
     display: inline-block;
     height: 1em;
     width: 1em;
-    fill: white;
+    fill: inherit;
     stroke: inherit;
 }
 
@@ -15,3 +15,14 @@
     font-size:45.7px;
     width:(333.2/45.7)+em;
 }
+
+.icon-pixel-bg {
+    font-size:444.45px;
+    width:(1000/444.45)+em;
+}
+
+.icon-pixel-heart {
+    font-size:10px;
+    width:(11/10)+em;
+}
+
