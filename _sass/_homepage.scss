@@ -14,3 +14,14 @@
       padding: 15px 25px 5px 36px;
     }
   }
+// Realy strange issue with white line on right body
+html,body {
+  padding: 0px;
+  margin: 0px;
+  overflow-y: hidden;
+}
+@media (max-width: $screen-xs-max) {
+  .container-fluid {
+    margin-bottom: -1px;
+  }
+}
