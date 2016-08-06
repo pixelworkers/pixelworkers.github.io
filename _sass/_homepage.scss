@@ -18,7 +18,8 @@
 html,body {
   padding: 0px;
   margin: 0px;
-  overflow-y: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 @media (max-width: $screen-xs-max) {
   .container-fluid {
