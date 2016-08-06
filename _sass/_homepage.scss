@@ -20,6 +20,7 @@ html,body {
   margin: 0px;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
 }
 @media (max-width: $screen-xs-max) {
   .container-fluid {
