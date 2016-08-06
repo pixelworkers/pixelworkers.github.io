@@ -18,7 +18,7 @@
 html,body {
   padding: 0px;
   margin: 0px;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 @media (max-width: $screen-xs-max) {
   .container-fluid {
