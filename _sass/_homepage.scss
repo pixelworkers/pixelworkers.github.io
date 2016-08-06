@@ -1,0 +1,16 @@
+// iphone 5 fix
+  @media (max-width: $screen-xs-min) {
+    #pixelBanner .top {
+      font-size: 65px;
+    }
+    #pixelBannerB .top {
+      font-size: 38px;
+    }
+    #events .info svg {
+      left: -130px;
+      font-size: 145px;
+    }
+    #events .info > div {
+      padding: 15px 25px 5px 36px;
+    }
+  }

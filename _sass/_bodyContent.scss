@@ -1,4 +1,8 @@
 #events {
+  min-height: 350px;
+  background: url(/assets/i/top.png);
+  background-position: center top;
+  background-size: auto 100%;
   .info {
     position: absolute;
     left: 40%;
@@ -38,5 +42,7 @@
 #connect {
   background-color: #00953a;
   min-height: 350px;
-  background: url(/assets/i/pinkpixel-bg.png);
+  background: url(/assets/i/bottom.png);
+  background-position: center top;
+  background-size: auto 100%
 }
