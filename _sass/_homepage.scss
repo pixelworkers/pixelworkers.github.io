@@ -18,12 +18,25 @@
 html,body {
   padding: 0px;
   margin: 0px;
-  overflow-y: scroll;
+  overflow-y: visible;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
 @media (max-width: $screen-xs-max) {
   .container-fluid {
     margin-bottom: -1px;
+  }
+}
+.coolNavBar {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  color: $white;
+  .icon {
+    font-size: 1.3em;
+    width: 1em;
+    fill: white;
+    transform: rotate(180deg);
+    vertical-align: sub;
   }
 }
