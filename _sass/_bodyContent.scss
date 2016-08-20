@@ -15,7 +15,30 @@
     p {
       text-align: left;
     }
-    svg {
+    .eventDetails {
+      cursor: default;
+      fill: #fff;
+      color: #fff;
+
+
+      svg {
+        font-size: 16px;
+        transform: rotate(180deg);
+        vertical-align: sub;
+        transition: margin-left 0.4s ease-in;
+      }
+      &:hover {
+        text-decoration: none;
+        color: #e51a92;
+        transition: color 0.7s ease-out;
+        svg {
+          margin-left: 10px;
+          transition: margin-left 0.4s ease-out;
+        }
+
+      }
+    }
+    >svg {
       font-size: 162px;
       position: absolute;
       left: -162px;

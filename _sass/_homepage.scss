@@ -6,12 +6,14 @@
     #pixelBannerB .top {
       font-size: 38px;
     }
-    #events .info svg {
-      left: -130px;
-      font-size: 145px;
-    }
-    #events .info > div {
-      padding: 15px 25px 5px 36px;
+    #events .info {
+      >svg {
+        left: -130px;
+        font-size: 145px;
+      }
+      > div {
+       padding: 15px 25px 5px 36px;
+     }
     }
   }
 // Realy strange issue with white line on right body
