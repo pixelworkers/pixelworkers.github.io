@@ -25,15 +25,15 @@
         font-size: 16px;
         transform: rotate(180deg);
         vertical-align: sub;
-        transition: margin-left 0.4s ease-in;
+        // transition: margin-left 0.4s ease-in;
       }
       &:hover {
         text-decoration: none;
         color: #e51a92;
         transition: color 0.7s ease-out;
         svg {
-          margin-left: 10px;
-          transition: margin-left 0.4s ease-out;
+          // margin-left: 10px;
+          // transition: margin-left 0.4s ease-out;
         }
 
       }
