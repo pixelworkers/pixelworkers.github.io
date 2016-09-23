@@ -64,9 +64,21 @@
   }
 }
 #connect {
+  color: #fff;
   background-color: #00953a;
   min-height: 350px;
   background: url(/assets/i/bottom.png);
   background-position: center top;
-  background-size: auto 100%
+  background-size: auto 100%;
+  .icon-envelope {
+    font-size: 18px;
+    fill: rgb(130, 82, 199);
+  }
+  .icon-slack {
+    font-size: 77px;
+  }
+  h2 {
+    font-size: 5em;
+    font-weight: 700;
+  }
 }
