@@ -99,16 +99,21 @@ a {
     .small-social-btn {
       position: relative;
       display: inline-block;
-      margin: 20px 8px 0;
+      margin: 20px 8px 30px;
       width: 40px;
       height: 40px;
       z-index: 1;
+      // Small screens
       .icon {font-size: 3em;}
       .icon-meetup-logo { fill: #e51937; }
       .icon-twitter-logo { fill: #4099ff; }
       .icon-facebook-logo { fill: #3b5998; }
       .icon-instagram-logo { fill: #8a3ab9; }
       .icon-youtube-play-button { fill: #eb0000; }
+      .icon-meetup-new {
+        fill: #ED1C40;
+        font-size: 3.5em;
+    }
     }
     .social-btn {
       position: relative;
@@ -134,6 +139,11 @@ a {
 
       .icon {font-size: 1.5em;}
       .icon-meetup-logo { fill: #e51937; }
+      .icon-meetup-new {
+        fill: #ED1C40;
+        font-size: 3em;
+    }
+    // lg screens
       .icon-twitter-logo { fill: #4099ff; }
       .icon-facebook-logo { fill: #3b5998; }
       .icon-instagram-logo { fill: #8a3ab9; }
