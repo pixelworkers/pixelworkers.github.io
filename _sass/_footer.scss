@@ -142,6 +142,9 @@ a {
       .icon-meetup-new {
         fill: #ED1C40;
         font-size: 3em;
+        @media (min-width: $screen-md-min) {
+        font-size: 1em;
+      }
     }
     // lg screens
       .icon-twitter-logo { fill: #4099ff; }
